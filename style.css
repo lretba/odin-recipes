@@ -1,0 +1,50 @@
+/* pastel color palette
+#E7DDD9 Timberwolf
+#DECDCB Pale Dogwood
+#CECAB8 Bone
+#9AAE9B Cambridge Blue 
+#789993 Cambridge Blue -> for header backgrounds
+#2B2B2B anthracite boxes
+
+*/
+
+body {
+    font-family: "Monaco", "Lucida Console", "Courier New", monospace;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #789993;
+    color: white;
+    border-radius: 20px;
+    padding: 0 0 0 25px;
+}
+
+h2 {
+    color: #1b3a42;
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+}
+
+.div-base {
+    width: 90%;
+    background-color: #2B2B2B;
+    padding: 40px;
+}
+
+.div-half {
+    width: 40%;
+    height: 1000px;
+    display: inline-block;
+    background-color: #CECAB8;
+    border-radius: 20px;
+}
+
+section {
+    width: 90%;
+    padding: 5px 20px 5px 20px;
+}
